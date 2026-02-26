@@ -1,0 +1,1610 @@
+[
+    {
+        "id": 1,
+        "country_id": 250,
+        "currency_id": 162,
+        "is_primary": true
+    },
+    {
+        "id": 2,
+        "country_id": 117,
+        "currency_id": 8,
+        "is_primary": true
+    },
+    {
+        "id": 3,
+        "country_id": 117,
+        "currency_id": 76,
+        "is_primary": true
+    },
+    {
+        "id": 4,
+        "country_id": 84,
+        "currency_id": 52,
+        "is_primary": true
+    },
+    {
+        "id": 5,
+        "country_id": 163,
+        "currency_id": 78,
+        "is_primary": true
+    },
+    {
+        "id": 6,
+        "country_id": 211,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 7,
+        "country_id": 114,
+        "currency_id": 71,
+        "is_primary": true
+    },
+    {
+        "id": 8,
+        "country_id": 194,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 9,
+        "country_id": 110,
+        "currency_id": 157,
+        "is_primary": true
+    },
+    {
+        "id": 10,
+        "country_id": 31,
+        "currency_id": 20,
+        "is_primary": true
+    },
+    {
+        "id": 11,
+        "country_id": 50,
+        "currency_id": 32,
+        "is_primary": true
+    },
+    {
+        "id": 12,
+        "country_id": 61,
+        "currency_id": 156,
+        "is_primary": true
+    },
+    {
+        "id": 13,
+        "country_id": 60,
+        "currency_id": 38,
+        "is_primary": true
+    },
+    {
+        "id": 14,
+        "country_id": 204,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 15,
+        "country_id": 8,
+        "currency_id": 156,
+        "is_primary": true
+    },
+    {
+        "id": 16,
+        "country_id": 164,
+        "currency_id": 92,
+        "is_primary": true
+    },
+    {
+        "id": 17,
+        "country_id": 205,
+        "currency_id": 123,
+        "is_primary": true
+    },
+    {
+        "id": 18,
+        "country_id": 45,
+        "currency_id": 155,
+        "is_primary": true
+    },
+    {
+        "id": 19,
+        "country_id": 37,
+        "currency_id": 16,
+        "is_primary": true
+    },
+    {
+        "id": 20,
+        "country_id": 109,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 21,
+        "country_id": 71,
+        "currency_id": 44,
+        "is_primary": true
+    },
+    {
+        "id": 22,
+        "country_id": 245,
+        "currency_id": 152,
+        "is_primary": true
+    },
+    {
+        "id": 23,
+        "country_id": 224,
+        "currency_id": 157,
+        "is_primary": true
+    },
+    {
+        "id": 24,
+        "country_id": 138,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 25,
+        "country_id": 177,
+        "currency_id": 115,
+        "is_primary": true
+    },
+    {
+        "id": 26,
+        "country_id": 178,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 27,
+        "country_id": 48,
+        "currency_id": 8,
+        "is_primary": true
+    },
+    {
+        "id": 28,
+        "country_id": 108,
+        "currency_id": 63,
+        "is_primary": true
+    },
+    {
+        "id": 29,
+        "country_id": 11,
+        "currency_id": 7,
+        "is_primary": true
+    },
+    {
+        "id": 30,
+        "country_id": 1,
+        "currency_id": 2,
+        "is_primary": true
+    },
+    {
+        "id": 31,
+        "country_id": 172,
+        "currency_id": 112,
+        "is_primary": true
+    },
+    {
+        "id": 32,
+        "country_id": 157,
+        "currency_id": 108,
+        "is_primary": true
+    },
+    {
+        "id": 33,
+        "country_id": 66,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 34,
+        "country_id": 58,
+        "currency_id": 37,
+        "is_primary": true
+    },
+    {
+        "id": 35,
+        "country_id": 39,
+        "currency_id": 155,
+        "is_primary": true
+    },
+    {
+        "id": 36,
+        "country_id": 248,
+        "currency_id": 159,
+        "is_primary": true
+    },
+    {
+        "id": 37,
+        "country_id": 171,
+        "currency_id": 110,
+        "is_primary": true
+    },
+    {
+        "id": 38,
+        "country_id": 171,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 39,
+        "country_id": 223,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 40,
+        "country_id": 55,
+        "currency_id": 34,
+        "is_primary": true
+    },
+    {
+        "id": 41,
+        "country_id": 55,
+        "currency_id": 35,
+        "is_primary": true
+    },
+    {
+        "id": 42,
+        "country_id": 184,
+        "currency_id": 120,
+        "is_primary": true
+    },
+    {
+        "id": 43,
+        "country_id": 10,
+        "currency_id": 156,
+        "is_primary": true
+    },
+    {
+        "id": 44,
+        "country_id": 186,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 45,
+        "country_id": 27,
+        "currency_id": 19,
+        "is_primary": true
+    },
+    {
+        "id": 46,
+        "country_id": 14,
+        "currency_id": 8,
+        "is_primary": true
+    },
+    {
+        "id": 47,
+        "country_id": 238,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 48,
+        "country_id": 74,
+        "currency_id": 46,
+        "is_primary": true
+    },
+    {
+        "id": 49,
+        "country_id": 151,
+        "currency_id": 93,
+        "is_primary": true
+    },
+    {
+        "id": 50,
+        "country_id": 195,
+        "currency_id": 133,
+        "is_primary": true
+    },
+    {
+        "id": 51,
+        "country_id": 131,
+        "currency_id": 91,
+        "is_primary": true
+    },
+    {
+        "id": 52,
+        "country_id": 232,
+        "currency_id": 8,
+        "is_primary": true
+    },
+    {
+        "id": 53,
+        "country_id": 232,
+        "currency_id": 143,
+        "is_primary": true
+    },
+    {
+        "id": 54,
+        "country_id": 92,
+        "currency_id": 49,
+        "is_primary": true
+    },
+    {
+        "id": 55,
+        "country_id": 92,
+        "currency_id": 51,
+        "is_primary": true
+    },
+    {
+        "id": 56,
+        "country_id": 49,
+        "currency_id": 8,
+        "is_primary": true
+    },
+    {
+        "id": 57,
+        "country_id": 100,
+        "currency_id": 61,
+        "is_primary": true
+    },
+    {
+        "id": 58,
+        "country_id": 65,
+        "currency_id": 42,
+        "is_primary": true
+    },
+    {
+        "id": 59,
+        "country_id": 120,
+        "currency_id": 74,
+        "is_primary": true
+    },
+    {
+        "id": 60,
+        "country_id": 103,
+        "currency_id": 62,
+        "is_primary": true
+    },
+    {
+        "id": 61,
+        "country_id": 228,
+        "currency_id": 139,
+        "is_primary": true
+    },
+    {
+        "id": 62,
+        "country_id": 5,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 63,
+        "country_id": 167,
+        "currency_id": 109,
+        "is_primary": true
+    },
+    {
+        "id": 64,
+        "country_id": 78,
+        "currency_id": 158,
+        "is_primary": true
+    },
+    {
+        "id": 65,
+        "country_id": 237,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 66,
+        "country_id": 72,
+        "currency_id": 47,
+        "is_primary": true
+    },
+    {
+        "id": 67,
+        "country_id": 190,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 68,
+        "country_id": 214,
+        "currency_id": 131,
+        "is_primary": true
+    },
+    {
+        "id": 69,
+        "country_id": 16,
+        "currency_id": 10,
+        "is_primary": true
+    },
+    {
+        "id": 70,
+        "country_id": 155,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 71,
+        "country_id": 170,
+        "currency_id": 42,
+        "is_primary": true
+    },
+    {
+        "id": 72,
+        "country_id": 170,
+        "currency_id": 63,
+        "is_primary": true
+    },
+    {
+        "id": 73,
+        "country_id": 170,
+        "currency_id": 71,
+        "is_primary": true
+    },
+    {
+        "id": 74,
+        "country_id": 203,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 75,
+        "country_id": 233,
+        "currency_id": 147,
+        "is_primary": true
+    },
+    {
+        "id": 76,
+        "country_id": 43,
+        "currency_id": 81,
+        "is_primary": true
+    },
+    {
+        "id": 77,
+        "country_id": 189,
+        "currency_id": 156,
+        "is_primary": true
+    },
+    {
+        "id": 78,
+        "country_id": 126,
+        "currency_id": 88,
+        "is_primary": true
+    },
+    {
+        "id": 79,
+        "country_id": 165,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 80,
+        "country_id": 12,
+        "currency_id": 4,
+        "is_primary": true
+    },
+    {
+        "id": 81,
+        "country_id": 51,
+        "currency_id": 77,
+        "is_primary": true
+    },
+    {
+        "id": 82,
+        "country_id": 95,
+        "currency_id": 57,
+        "is_primary": true
+    },
+    {
+        "id": 83,
+        "country_id": 235,
+        "currency_id": 1,
+        "is_primary": true
+    },
+    {
+        "id": 84,
+        "country_id": 229,
+        "currency_id": 141,
+        "is_primary": true
+    },
+    {
+        "id": 85,
+        "country_id": 193,
+        "currency_id": 154,
+        "is_primary": true
+    },
+    {
+        "id": 86,
+        "country_id": 83,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 87,
+        "country_id": 81,
+        "currency_id": 54,
+        "is_primary": true
+    },
+    {
+        "id": 88,
+        "country_id": 146,
+        "currency_id": 94,
+        "is_primary": true
+    },
+    {
+        "id": 89,
+        "country_id": 198,
+        "currency_id": 119,
+        "is_primary": true
+    },
+    {
+        "id": 90,
+        "country_id": 47,
+        "currency_id": 31,
+        "is_primary": true
+    },
+    {
+        "id": 91,
+        "country_id": 147,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 92,
+        "country_id": 90,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 93,
+        "country_id": 38,
+        "currency_id": 75,
+        "is_primary": true
+    },
+    {
+        "id": 94,
+        "country_id": 38,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 95,
+        "country_id": 127,
+        "currency_id": 28,
+        "is_primary": true
+    },
+    {
+        "id": 96,
+        "country_id": 197,
+        "currency_id": 157,
+        "is_primary": true
+    },
+    {
+        "id": 97,
+        "country_id": 236,
+        "currency_id": 49,
+        "is_primary": true
+    },
+    {
+        "id": 98,
+        "country_id": 42,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 99,
+        "country_id": 77,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 100,
+        "country_id": 36,
+        "currency_id": 157,
+        "is_primary": true
+    },
+    {
+        "id": 101,
+        "country_id": 180,
+        "currency_id": 117,
+        "is_primary": true
+    },
+    {
+        "id": 102,
+        "country_id": 234,
+        "currency_id": 146,
+        "is_primary": true
+    },
+    {
+        "id": 103,
+        "country_id": 142,
+        "currency_id": 100,
+        "is_primary": true
+    },
+    {
+        "id": 104,
+        "country_id": 107,
+        "currency_id": 49,
+        "is_primary": true
+    },
+    {
+        "id": 105,
+        "country_id": 107,
+        "currency_id": 64,
+        "is_primary": true
+    },
+    {
+        "id": 106,
+        "country_id": 208,
+        "currency_id": 49,
+        "is_primary": true
+    },
+    {
+        "id": 107,
+        "country_id": 247,
+        "currency_id": 41,
+        "is_primary": true
+    },
+    {
+        "id": 108,
+        "country_id": 247,
+        "currency_id": 89,
+        "is_primary": true
+    },
+    {
+        "id": 109,
+        "country_id": 247,
+        "currency_id": 96,
+        "is_primary": true
+    },
+    {
+        "id": 110,
+        "country_id": 231,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 111,
+        "country_id": 3,
+        "currency_id": 3,
+        "is_primary": true
+    },
+    {
+        "id": 112,
+        "country_id": 57,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 113,
+        "country_id": 91,
+        "currency_id": 56,
+        "is_primary": true
+    },
+    {
+        "id": 114,
+        "country_id": 153,
+        "currency_id": 8,
+        "is_primary": true
+    },
+    {
+        "id": 115,
+        "country_id": 187,
+        "currency_id": 49,
+        "is_primary": true
+    },
+    {
+        "id": 116,
+        "country_id": 187,
+        "currency_id": 128,
+        "is_primary": true
+    },
+    {
+        "id": 117,
+        "country_id": 122,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 118,
+        "country_id": 52,
+        "currency_id": 29,
+        "is_primary": true
+    },
+    {
+        "id": 119,
+        "country_id": 52,
+        "currency_id": 108,
+        "is_primary": true
+    },
+    {
+        "id": 120,
+        "country_id": 136,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 121,
+        "country_id": 176,
+        "currency_id": 108,
+        "is_primary": true
+    },
+    {
+        "id": 122,
+        "country_id": 209,
+        "currency_id": 79,
+        "is_primary": true
+    },
+    {
+        "id": 123,
+        "country_id": 156,
+        "currency_id": 158,
+        "is_primary": true
+    },
+    {
+        "id": 124,
+        "country_id": 150,
+        "currency_id": 102,
+        "is_primary": true
+    },
+    {
+        "id": 125,
+        "country_id": 129,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 126,
+        "country_id": 106,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 127,
+        "country_id": 160,
+        "currency_id": 104,
+        "is_primary": true
+    },
+    {
+        "id": 128,
+        "country_id": 17,
+        "currency_id": 21,
+        "is_primary": true
+    },
+    {
+        "id": 129,
+        "country_id": 17,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 130,
+        "country_id": 137,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 131,
+        "country_id": 86,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 132,
+        "country_id": 134,
+        "currency_id": 98,
+        "is_primary": true
+    },
+    {
+        "id": 133,
+        "country_id": 161,
+        "currency_id": 108,
+        "is_primary": true
+    },
+    {
+        "id": 134,
+        "country_id": 218,
+        "currency_id": 134,
+        "is_primary": true
+    },
+    {
+        "id": 135,
+        "country_id": 64,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 136,
+        "country_id": 230,
+        "currency_id": 138,
+        "is_primary": true
+    },
+    {
+        "id": 137,
+        "country_id": 246,
+        "currency_id": 158,
+        "is_primary": true
+    },
+    {
+        "id": 138,
+        "country_id": 34,
+        "currency_id": 18,
+        "is_primary": true
+    },
+    {
+        "id": 139,
+        "country_id": 34,
+        "currency_id": 127,
+        "is_primary": true
+    },
+    {
+        "id": 140,
+        "country_id": 241,
+        "currency_id": 150,
+        "is_primary": true
+    },
+    {
+        "id": 141,
+        "country_id": 18,
+        "currency_id": 15,
+        "is_primary": true
+    },
+    {
+        "id": 142,
+        "country_id": 33,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 143,
+        "country_id": 144,
+        "currency_id": 90,
+        "is_primary": true
+    },
+    {
+        "id": 144,
+        "country_id": 140,
+        "currency_id": 97,
+        "is_primary": true
+    },
+    {
+        "id": 145,
+        "country_id": 226,
+        "currency_id": 140,
+        "is_primary": true
+    },
+    {
+        "id": 146,
+        "country_id": 199,
+        "currency_id": 124,
+        "is_primary": true
+    },
+    {
+        "id": 147,
+        "country_id": 7,
+        "currency_id": 6,
+        "is_primary": true
+    },
+    {
+        "id": 148,
+        "country_id": 69,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 149,
+        "country_id": 25,
+        "currency_id": 17,
+        "is_primary": true
+    },
+    {
+        "id": 150,
+        "country_id": 175,
+        "currency_id": 113,
+        "is_primary": true
+    },
+    {
+        "id": 151,
+        "country_id": 243,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 152,
+        "country_id": 244,
+        "currency_id": 151,
+        "is_primary": true
+    },
+    {
+        "id": 153,
+        "country_id": 20,
+        "currency_id": 12,
+        "is_primary": true
+    },
+    {
+        "id": 154,
+        "country_id": 102,
+        "currency_id": 65,
+        "is_primary": true
+    },
+    {
+        "id": 155,
+        "country_id": 135,
+        "currency_id": 157,
+        "is_primary": true
+    },
+    {
+        "id": 156,
+        "country_id": 162,
+        "currency_id": 8,
+        "is_primary": true
+    },
+    {
+        "id": 157,
+        "country_id": 21,
+        "currency_id": 24,
+        "is_primary": true
+    },
+    {
+        "id": 158,
+        "country_id": 188,
+        "currency_id": 156,
+        "is_primary": true
+    },
+    {
+        "id": 159,
+        "country_id": 89,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 160,
+        "country_id": 128,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 161,
+        "country_id": 148,
+        "currency_id": 156,
+        "is_primary": true
+    },
+    {
+        "id": 162,
+        "country_id": 159,
+        "currency_id": 157,
+        "is_primary": true
+    },
+    {
+        "id": 163,
+        "country_id": 67,
+        "currency_id": 155,
+        "is_primary": true
+    },
+    {
+        "id": 164,
+        "country_id": 105,
+        "currency_id": 66,
+        "is_primary": true
+    },
+    {
+        "id": 165,
+        "country_id": 139,
+        "currency_id": 96,
+        "is_primary": true
+    },
+    {
+        "id": 166,
+        "country_id": 219,
+        "currency_id": 144,
+        "is_primary": true
+    },
+    {
+        "id": 167,
+        "country_id": 82,
+        "currency_id": 50,
+        "is_primary": true
+    },
+    {
+        "id": 168,
+        "country_id": 179,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 169,
+        "country_id": 173,
+        "currency_id": 116,
+        "is_primary": true
+    },
+    {
+        "id": 170,
+        "country_id": 200,
+        "currency_id": 129,
+        "is_primary": true
+    },
+    {
+        "id": 171,
+        "country_id": 29,
+        "currency_id": 23,
+        "is_primary": true
+    },
+    {
+        "id": 172,
+        "country_id": 141,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 173,
+        "country_id": 75,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 174,
+        "country_id": 113,
+        "currency_id": 49,
+        "is_primary": true
+    },
+    {
+        "id": 175,
+        "country_id": 113,
+        "currency_id": 69,
+        "is_primary": true
+    },
+    {
+        "id": 176,
+        "country_id": 73,
+        "currency_id": 39,
+        "is_primary": true
+    },
+    {
+        "id": 177,
+        "country_id": 73,
+        "currency_id": 48,
+        "is_primary": true
+    },
+    {
+        "id": 178,
+        "country_id": 216,
+        "currency_id": 126,
+        "is_primary": true
+    },
+    {
+        "id": 179,
+        "country_id": 212,
+        "currency_id": 85,
+        "is_primary": true
+    },
+    {
+        "id": 180,
+        "country_id": 222,
+        "currency_id": 136,
+        "is_primary": true
+    },
+    {
+        "id": 181,
+        "country_id": 87,
+        "currency_id": 39,
+        "is_primary": true
+    },
+    {
+        "id": 182,
+        "country_id": 35,
+        "currency_id": 14,
+        "is_primary": true
+    },
+    {
+        "id": 183,
+        "country_id": 116,
+        "currency_id": 73,
+        "is_primary": true
+    },
+    {
+        "id": 184,
+        "country_id": 99,
+        "currency_id": 58,
+        "is_primary": true
+    },
+    {
+        "id": 185,
+        "country_id": 183,
+        "currency_id": 118,
+        "is_primary": true
+    },
+    {
+        "id": 186,
+        "country_id": 132,
+        "currency_id": 99,
+        "is_primary": true
+    },
+    {
+        "id": 187,
+        "country_id": 181,
+        "currency_id": 155,
+        "is_primary": true
+    },
+    {
+        "id": 188,
+        "country_id": 98,
+        "currency_id": 59,
+        "is_primary": true
+    },
+    {
+        "id": 189,
+        "country_id": 13,
+        "currency_id": 9,
+        "is_primary": true
+    },
+    {
+        "id": 190,
+        "country_id": 145,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 191,
+        "country_id": 249,
+        "currency_id": 161,
+        "is_primary": true
+    },
+    {
+        "id": 192,
+        "country_id": 6,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 193,
+        "country_id": 125,
+        "currency_id": 86,
+        "is_primary": true
+    },
+    {
+        "id": 194,
+        "country_id": 221,
+        "currency_id": 145,
+        "is_primary": true
+    },
+    {
+        "id": 195,
+        "country_id": 191,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 196,
+        "country_id": 104,
+        "currency_id": 67,
+        "is_primary": true
+    },
+    {
+        "id": 197,
+        "country_id": 101,
+        "currency_id": 68,
+        "is_primary": true
+    },
+    {
+        "id": 198,
+        "country_id": 93,
+        "currency_id": 55,
+        "is_primary": true
+    },
+    {
+        "id": 199,
+        "country_id": 215,
+        "currency_id": 106,
+        "is_primary": true
+    },
+    {
+        "id": 200,
+        "country_id": 119,
+        "currency_id": 80,
+        "is_primary": true
+    },
+    {
+        "id": 201,
+        "country_id": 149,
+        "currency_id": 89,
+        "is_primary": true
+    },
+    {
+        "id": 202,
+        "country_id": 152,
+        "currency_id": 103,
+        "is_primary": true
+    },
+    {
+        "id": 203,
+        "country_id": 152,
+        "currency_id": 160,
+        "is_primary": true
+    },
+    {
+        "id": 204,
+        "country_id": 220,
+        "currency_id": 137,
+        "is_primary": true
+    },
+    {
+        "id": 205,
+        "country_id": 242,
+        "currency_id": 153,
+        "is_primary": true
+    },
+    {
+        "id": 206,
+        "country_id": 111,
+        "currency_id": 70,
+        "is_primary": true
+    },
+    {
+        "id": 207,
+        "country_id": 169,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 208,
+        "country_id": 240,
+        "currency_id": 149,
+        "is_primary": true
+    },
+    {
+        "id": 209,
+        "country_id": 26,
+        "currency_id": 22,
+        "is_primary": true
+    },
+    {
+        "id": 210,
+        "country_id": 26,
+        "currency_id": 65,
+        "is_primary": true
+    },
+    {
+        "id": 211,
+        "country_id": 63,
+        "currency_id": 27,
+        "is_primary": true
+    },
+    {
+        "id": 212,
+        "country_id": 115,
+        "currency_id": 82,
+        "is_primary": true
+    },
+    {
+        "id": 213,
+        "country_id": 68,
+        "currency_id": 43,
+        "is_primary": true
+    },
+    {
+        "id": 214,
+        "country_id": 85,
+        "currency_id": 53,
+        "is_primary": true
+    },
+    {
+        "id": 215,
+        "country_id": 80,
+        "currency_id": 155,
+        "is_primary": true
+    },
+    {
+        "id": 216,
+        "country_id": 174,
+        "currency_id": 111,
+        "is_primary": true
+    },
+    {
+        "id": 217,
+        "country_id": 59,
+        "currency_id": 39,
+        "is_primary": true
+    },
+    {
+        "id": 218,
+        "country_id": 54,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 219,
+        "country_id": 56,
+        "currency_id": 5,
+        "is_primary": true
+    },
+    {
+        "id": 220,
+        "country_id": 32,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 221,
+        "country_id": 166,
+        "currency_id": 106,
+        "is_primary": true
+    },
+    {
+        "id": 222,
+        "country_id": 124,
+        "currency_id": 87,
+        "is_primary": true
+    },
+    {
+        "id": 223,
+        "country_id": 124,
+        "currency_id": 160,
+        "is_primary": true
+    },
+    {
+        "id": 224,
+        "country_id": 15,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 225,
+        "country_id": 217,
+        "currency_id": 28,
+        "is_primary": true
+    },
+    {
+        "id": 226,
+        "country_id": 23,
+        "currency_id": 25,
+        "is_primary": true
+    },
+    {
+        "id": 227,
+        "country_id": 22,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 228,
+        "country_id": 158,
+        "currency_id": 105,
+        "is_primary": true
+    },
+    {
+        "id": 229,
+        "country_id": 239,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 230,
+        "country_id": 201,
+        "currency_id": 127,
+        "is_primary": true
+    },
+    {
+        "id": 231,
+        "country_id": 62,
+        "currency_id": 40,
+        "is_primary": true
+    },
+    {
+        "id": 232,
+        "country_id": 118,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 233,
+        "country_id": 121,
+        "currency_id": 83,
+        "is_primary": true
+    },
+    {
+        "id": 234,
+        "country_id": 46,
+        "currency_id": 30,
+        "is_primary": true
+    },
+    {
+        "id": 235,
+        "country_id": 53,
+        "currency_id": 33,
+        "is_primary": true
+    },
+    {
+        "id": 236,
+        "country_id": 185,
+        "currency_id": 121,
+        "is_primary": true
+    },
+    {
+        "id": 237,
+        "country_id": 227,
+        "currency_id": 142,
+        "is_primary": true
+    },
+    {
+        "id": 238,
+        "country_id": 133,
+        "currency_id": 101,
+        "is_primary": true
+    },
+    {
+        "id": 239,
+        "country_id": 207,
+        "currency_id": 160,
+        "is_primary": true
+    },
+    {
+        "id": 240,
+        "country_id": 196,
+        "currency_id": 122,
+        "is_primary": true
+    },
+    {
+        "id": 241,
+        "country_id": 96,
+        "currency_id": 60,
+        "is_primary": true
+    },
+    {
+        "id": 242,
+        "country_id": 79,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 243,
+        "country_id": 225,
+        "currency_id": 108,
+        "is_primary": true
+    },
+    {
+        "id": 244,
+        "country_id": 206,
+        "currency_id": 130,
+        "is_primary": true
+    },
+    {
+        "id": 245,
+        "country_id": 112,
+        "currency_id": 72,
+        "is_primary": true
+    },
+    {
+        "id": 246,
+        "country_id": 130,
+        "currency_id": 95,
+        "is_primary": true
+    },
+    {
+        "id": 247,
+        "country_id": 213,
+        "currency_id": 125,
+        "is_primary": true
+    },
+    {
+        "id": 248,
+        "country_id": 4,
+        "currency_id": 41,
+        "is_primary": true
+    },
+    {
+        "id": 249,
+        "country_id": 70,
+        "currency_id": 135,
+        "is_primary": true
+    },
+    {
+        "id": 250,
+        "country_id": 70,
+        "currency_id": 160,
+        "is_primary": true
+    },
+    {
+        "id": 251,
+        "country_id": 76,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 252,
+        "country_id": 202,
+        "currency_id": 5,
+        "is_primary": true
+    },
+    {
+        "id": 253,
+        "country_id": 19,
+        "currency_id": 13,
+        "is_primary": true
+    },
+    {
+        "id": 254,
+        "country_id": 44,
+        "currency_id": 155,
+        "is_primary": true
+    },
+    {
+        "id": 255,
+        "country_id": 40,
+        "currency_id": 26,
+        "is_primary": true
+    },
+    {
+        "id": 256,
+        "country_id": 182,
+        "currency_id": 45,
+        "is_primary": true
+    },
+    {
+        "id": 257,
+        "country_id": 192,
+        "currency_id": 156,
+        "is_primary": true
+    },
+    {
+        "id": 258,
+        "country_id": 143,
+        "currency_id": 148,
+        "is_primary": true
+    },
+    {
+        "id": 259,
+        "country_id": 41,
+        "currency_id": 36,
+        "is_primary": true
+    },
+    {
+        "id": 260,
+        "country_id": 88,
+        "currency_id": 156,
+        "is_primary": true
+    },
+    {
+        "id": 261,
+        "country_id": 168,
+        "currency_id": 114,
+        "is_primary": true
+    },
+    {
+        "id": 262,
+        "country_id": 154,
+        "currency_id": 107,
+        "is_primary": true
+    },
+    {
+        "id": 263,
+        "country_id": 28,
+        "currency_id": 11,
+        "is_primary": true
+    },
+    {
+        "id": 264,
+        "country_id": 210,
+        "currency_id": 132,
+        "is_primary": true
+    },
+    {
+        "id": 265,
+        "country_id": 94,
+        "currency_id": 157,
+        "is_primary": true
+    },
+    {
+        "id": 266,
+        "country_id": 24,
+        "currency_id": 157,
+        "is_primary": true
+    },
+    {
+        "id": 267,
+        "country_id": 123,
+        "currency_id": 84,
+        "is_primary": true
+    },
+    {
+        "id": 268,
+        "country_id": 2,
+        "currency_id": 45,
+        "is_primary": true
+    }
+]

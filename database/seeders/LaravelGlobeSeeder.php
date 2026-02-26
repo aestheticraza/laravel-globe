@@ -23,6 +23,12 @@ class LaravelGlobeSeeder extends Seeder
         // For cross-database compatibility (ignoring foreign keys during truncation)
         Schema::disableForeignKeyConstraints();
 
+        DB::table('city_currency')->truncate();
+        DB::table('state_timezone')->truncate();
+        DB::table('city_timezone')->truncate();
+        DB::table('country_currency')->truncate();
+        DB::table('country_timezone')->truncate();
+
         DB::table(config('laravelglobe.tables.cities'))->truncate();
         DB::table(config('laravelglobe.tables.states'))->truncate();
         DB::table(config('laravelglobe.tables.countries'))->truncate();
@@ -36,6 +42,9 @@ class LaravelGlobeSeeder extends Seeder
         $this->seedCountries();
         $this->seedStates();
         $this->seedCitiesInChunks();
+
+        $this->seedCountryTimezonesPivot();
+        $this->seedCountryCurrenciesPivot();
 
         $this->command->info('✅ LaravelGlobe: Seeding completed successfully!');
     }
@@ -117,6 +126,30 @@ class LaravelGlobeSeeder extends Seeder
                     DB::table(config('laravelglobe.tables.cities'))->insert($chunk);
                 }
                 $this->command->info("Seeded chunk: " . basename($file));
+            }
+        }
+    }
+
+    private function seedCountryTimezonesPivot(): void
+    {
+        $this->command->info('⏳ Seeding Country Timezones Links...');
+        $file = __DIR__ . '/../../data/pivot_country_timezone.json';
+        if (file_exists($file)) {
+            $data = json_decode(file_get_contents($file), true);
+            foreach (array_chunk($data, 1000) as $chunk) {
+                DB::table('country_timezone')->insert($chunk);
+            }
+        }
+    }
+
+    private function seedCountryCurrenciesPivot(): void
+    {
+        $this->command->info('💱 Seeding Country Currencies Links...');
+        $file = __DIR__ . '/../../data/pivot_country_currency.json';
+        if (file_exists($file)) {
+            $data = json_decode(file_get_contents($file), true);
+            foreach (array_chunk($data, 1000) as $chunk) {
+                DB::table('country_currency')->insert($chunk);
             }
         }
     }
