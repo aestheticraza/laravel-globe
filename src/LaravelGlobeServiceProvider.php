@@ -65,15 +65,11 @@ class LaravelGlobeServiceProvider extends ServiceProvider
         // Register Observers for heavy data resolution handling natively
         \Aestheticraza\LaravelGlobe\Models\City::observe(\Aestheticraza\LaravelGlobe\Observers\CityObserver::class);
 
-        // Publish Migrations and Seeders
+        // Publish Migrations
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__ . '/../database/migrations/' => database_path('migrations'),
             ], 'laravelglobe-migrations');
-
-            $this->publishes([
-                __DIR__ . '/../database/seeders/' => database_path('seeders'),
-            ], 'laravelglobe-seeders');
 
             $this->commands([
                 Commands\GlobeInstallCommand::class,
