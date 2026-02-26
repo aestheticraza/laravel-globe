@@ -16,7 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Aestheticraza\\LaravelGlobe\\": "src/"
+            "Aestheticraza\\LaravelGlobe\\": "src/",
+            "Aestheticraza\\LaravelGlobe\\Database\\Seeders\\": "database/seeders/"
         },
         "files": [
             "src/helpers.php"
