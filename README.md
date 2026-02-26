@@ -30,22 +30,10 @@ This package gracefully solves geographical overlap anomalies via 5 advanced **M
    composer require aestheticraza/laravelglobe
    ```
 
-2. **Run the Install Command**:
-   This powerful command auto-publishes properties, bindings, caching setups, and migrations.
+2. **Run the Automated Master Install Command**:
+   This powerful command auto-publishes properties, bindings, caching setups, and migrations. Then it automatically asks to run `migrate` and trigger the chunked seeder all within one console execution.
    ```bash
    php artisan globe:install
-   ```
-
-3. **Migrate the Database**:
-   Runs all 12 enterprise-aligned database schematics (Including M-to-M cache columns).
-   ```bash
-   php artisan migrate
-   ```
-
-4. **Seed the Planet**:
-   This will bulk insert mappings cleanly across the 10 data city-chunks natively.
-   ```bash
-   php artisan db:seed --class="Aestheticraza\LaravelGlobe\Database\Seeders\LaravelGlobeSeeder"
    ```
 
 ---
@@ -86,6 +74,9 @@ $timezone = $city->primaryTimezone(); // Crawls City -> State -> Country
 ### 3. CLI Utilities
 We treat Data Syncing very seriously.
 ```bash
+# Force the exact globe seeders again (If disabled/skipped during installation)
+php artisan db:seed --class="Aestheticraza\LaravelGlobe\Database\Seeders\LaravelGlobeSeeder"
+
 # Export local DB updates securely as a JSON backup
 php artisan globe:export --only-active
 
