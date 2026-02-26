@@ -30,7 +30,8 @@ class GlobeInstallCommand extends Command
 
         $this->warn('Publishing package configurations and migrations...');
         $this->call('vendor:publish', [
-            '--provider' => "Aestheticraza\\LaravelGlobe\\LaravelGlobeServiceProvider"
+            '--provider' => "Aestheticraza\\LaravelGlobe\\LaravelGlobeServiceProvider",
+            '--force' => true
         ]);
 
         if ($this->option('force') || $this->confirm('Run geographical database migrations now?', true)) {
