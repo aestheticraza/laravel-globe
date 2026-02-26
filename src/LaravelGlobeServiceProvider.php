@@ -77,6 +77,7 @@ class LaravelGlobeServiceProvider extends ServiceProvider
                 Commands\GlobeStatusCommand::class,
                 Commands\GlobeExportCommand::class,
                 Commands\GlobeImportCommand::class,
+                Commands\GlobeUninstallCommand::class,
             ]);
         }
     }
