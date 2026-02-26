@@ -1,6 +1,6 @@
 <?php
 
-namespace Aestheticraza\LaravelGlobe\Seeders;
+namespace Aestheticraza\LaravelGlobe\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -41,7 +41,7 @@ class LaravelGlobeSeeder extends Seeder
     private function seedCurrencies(): void
     {
         $this->command->info('💰 Seeding Currencies...');
-        $file = __DIR__ . '/../../data/currencies.json';
+        $file = __DIR__ . '/../../data/custom_currencies.json';
         if (file_exists($file)) {
             $data = json_decode(file_get_contents($file), true);
             foreach (array_chunk($data, 500) as $chunk) {
@@ -55,7 +55,7 @@ class LaravelGlobeSeeder extends Seeder
     private function seedTimezones(): void
     {
         $this->command->info('⏰ Seeding Timezones...');
-        $file = __DIR__ . '/../../data/timezones.json';
+        $file = __DIR__ . '/../../data/custom_timezones.json';
         if (file_exists($file)) {
             $data = json_decode(file_get_contents($file), true);
             foreach (array_chunk($data, 500) as $chunk) {
@@ -69,7 +69,7 @@ class LaravelGlobeSeeder extends Seeder
     private function seedCountries(): void
     {
         $this->command->info('🏳️  Seeding Countries...');
-        $file = __DIR__ . '/../../data/countries.json';
+        $file = __DIR__ . '/../../data/custom_countries.json';
         if (file_exists($file)) {
             $data = json_decode(file_get_contents($file), true);
             foreach (array_chunk($data, 500) as $chunk) {
@@ -83,7 +83,7 @@ class LaravelGlobeSeeder extends Seeder
     private function seedStates(): void
     {
         $this->command->info('🗺️  Seeding States...');
-        $file = __DIR__ . '/../../data/states.json';
+        $file = __DIR__ . '/../../data/custom_states.json';
         if (file_exists($file)) {
             $data = json_decode(file_get_contents($file), true);
             foreach (array_chunk($data, 1000) as $chunk) {
@@ -98,10 +98,10 @@ class LaravelGlobeSeeder extends Seeder
     {
         $this->command->info('🏙️  Seeding Cities in Chunks...');
         $path = __DIR__ . '/../../data/cities/';
-        $files = glob($path . 'cities_*.json');
+        $files = glob($path . 'chunk_*.json');
 
         if (empty($files)) {
-            $this->command->warn('No split city files found in data/cities/! Please provide cities_a.json, cities_b.json etc.');
+            $this->command->warn('No split city files found in data/cities/! Please provide chunk_*.json');
             return;
         }
 
