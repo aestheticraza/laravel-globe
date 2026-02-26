@@ -87,6 +87,14 @@ php artisan globe:import --mode=upsert --preserve-user-data
 php artisan globe:status
 ```
 
+### 4. Complete Uninstallation
+If you ever need to completely remove LaravelGlobe from your project (including all 12 tables, migrations, pivot logic, and published config files), you can safely run:
+
+```bash
+php artisan globe:uninstall
+```
+*Note: This will permanently wipe all geographic data populated by the package. A confirmation prompt will appear before execution to prevent accidental data loss.*
+
 ---
 
 ## ⚙️ Configuration Tuning
