@@ -107,6 +107,9 @@ class LaravelGlobeSeeder extends Seeder
             return;
         }
 
+        // Apply Natural Sorting so 'chunk_10' comes after 'chunk_9' instead of 'chunk_1'
+        natsort($files);
+
         foreach ($files as $file) {
             $cities = json_decode(file_get_contents($file), true);
             if (is_array($cities)) {
