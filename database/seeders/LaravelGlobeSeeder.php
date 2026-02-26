@@ -6,6 +6,8 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Aestheticraza\LaravelGlobe\Models\Country;
 
+use Illuminate\Support\Facades\Schema;
+
 class LaravelGlobeSeeder extends Seeder
 {
     /**
@@ -19,7 +21,7 @@ class LaravelGlobeSeeder extends Seeder
         $this->command->info('🌍 LaravelGlobe: Seeding started.');
 
         // For cross-database compatibility (ignoring foreign keys during truncation)
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        Schema::disableForeignKeyConstraints();
 
         DB::table(config('laravelglobe.tables.cities'))->truncate();
         DB::table(config('laravelglobe.tables.states'))->truncate();
@@ -27,7 +29,7 @@ class LaravelGlobeSeeder extends Seeder
         DB::table(config('laravelglobe.tables.currencies'))->truncate();
         DB::table(config('laravelglobe.tables.timezones'))->truncate();
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        Schema::enableForeignKeyConstraints();
 
         $this->seedCurrencies();
         $this->seedTimezones();
