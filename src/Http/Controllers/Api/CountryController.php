@@ -1,12 +1,12 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Http\Controllers\Api;
+namespace Aestheticraza\LaravelGlobe\Http\Controllers\Api;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
-use Yourname\LaravelGlobe\Repositories\Contracts\CountryRepositoryInterface;
-use Yourname\LaravelGlobe\Http\Resources\CountryResource;
-use Yourname\LaravelGlobe\Models\State;
+use Aestheticraza\LaravelGlobe\Repositories\Contracts\CountryRepositoryInterface;
+use Aestheticraza\LaravelGlobe\Http\Resources\CountryResource;
+use Aestheticraza\LaravelGlobe\Models\State;
 
 class CountryController extends Controller
 {

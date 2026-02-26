@@ -1,10 +1,10 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Events;
+namespace Aestheticraza\LaravelGlobe\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Yourname\LaravelGlobe\Models\City;
+use Aestheticraza\LaravelGlobe\Models\City;
 
 class CityCreated
 {

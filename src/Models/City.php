@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Models;
+namespace Aestheticraza\LaravelGlobe\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -77,6 +77,6 @@ class City extends Model
 
     public function scopeNearby($query, $lat, $lng, $radiusKm = 10)
     {
-        return \Yourname\LaravelGlobe\Services\GeospatialEngine::scopeNearby($query, $lat, $lng, $radiusKm);
+        return \Aestheticraza\LaravelGlobe\Services\GeospatialEngine::scopeNearby($query, $lat, $lng, $radiusKm);
     }
 }

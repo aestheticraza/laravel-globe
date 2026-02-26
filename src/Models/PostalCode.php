@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Models;
+namespace Aestheticraza\LaravelGlobe\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

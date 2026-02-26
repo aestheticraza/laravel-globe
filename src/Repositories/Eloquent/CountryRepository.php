@@ -1,10 +1,10 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Repositories\Eloquent;
+namespace Aestheticraza\LaravelGlobe\Repositories\Eloquent;
 
 use Illuminate\Database\Eloquent\Collection;
-use Yourname\LaravelGlobe\Models\Country;
-use Yourname\LaravelGlobe\Repositories\Contracts\CountryRepositoryInterface;
+use Aestheticraza\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Repositories\Contracts\CountryRepositoryInterface;
 
 class CountryRepository implements CountryRepositoryInterface
 {

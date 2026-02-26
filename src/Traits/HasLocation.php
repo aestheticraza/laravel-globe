@@ -1,10 +1,10 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Traits;
+namespace Aestheticraza\LaravelGlobe\Traits;
 
-use Yourname\LaravelGlobe\Models\Country;
-use Yourname\LaravelGlobe\Models\State;
-use Yourname\LaravelGlobe\Models\City;
+use Aestheticraza\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Models\State;
+use Aestheticraza\LaravelGlobe\Models\City;
 
 trait HasLocation
 {

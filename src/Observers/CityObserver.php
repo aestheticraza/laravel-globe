@@ -1,8 +1,8 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Observers;
+namespace Aestheticraza\LaravelGlobe\Observers;
 
-use Yourname\LaravelGlobe\Models\City;
+use Aestheticraza\LaravelGlobe\Models\City;
 
 class CityObserver
 {
@@ -10,7 +10,7 @@ class CityObserver
      * Listen to the City saved event.
      * Automatically cascade the heavy resolution chain to a local DB column.
      *
-     * @param  \Yourname\LaravelGlobe\Models\City  $city
+     * @param  \Aestheticraza\LaravelGlobe\Models\City  $city
      * @return void
      */
     public function saved(City $city)

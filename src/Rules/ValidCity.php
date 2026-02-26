@@ -1,10 +1,10 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Rules;
+namespace Aestheticraza\LaravelGlobe\Rules;
 
 use Illuminate\Contracts\Validation\ValidationRule;
 use Closure;
-use Yourname\LaravelGlobe\Models\City;
+use Aestheticraza\LaravelGlobe\Models\City;
 
 class ValidCity implements ValidationRule
 {

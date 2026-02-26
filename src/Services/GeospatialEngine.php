@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Services;
+namespace Aestheticraza\LaravelGlobe\Services;
 
 use Illuminate\Support\Facades\DB;
 

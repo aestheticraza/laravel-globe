@@ -1,8 +1,8 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Utils;
+namespace Aestheticraza\LaravelGlobe\Utils;
 
-use Yourname\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Models\Country;
 
 class PhoneValidator
 {

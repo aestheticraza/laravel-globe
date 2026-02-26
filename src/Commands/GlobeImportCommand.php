@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Commands;
+namespace Aestheticraza\LaravelGlobe\Commands;
 
 use Illuminate\Console\Command;
 

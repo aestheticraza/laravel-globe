@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Commands;
+namespace Aestheticraza\LaravelGlobe\Commands;
 
 use Illuminate\Console\Command;
 
@@ -13,7 +13,7 @@ class GlobeRefreshCommand extends Command
     {
         if ($this->confirm('This will wipe all your Countries, States, Cities data and re-seed it. Continue?')) {
             $this->info('Re-seeding Globe data...');
-            $this->call('db:seed', ['--class' => 'Yourname\\LaravelGlobe\\Seeders\\LaravelGlobeSeeder']);
+            $this->call('db:seed', ['--class' => 'Aestheticraza\\LaravelGlobe\\Seeders\\LaravelGlobeSeeder']);
             $this->info('Data Refreshed Successfully!');
         }
     }

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Eloquent\Collection;
-use Yourname\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Models\Country;
 
 if (!function_exists('globe_countries')) {
     function globe_countries(): Collection

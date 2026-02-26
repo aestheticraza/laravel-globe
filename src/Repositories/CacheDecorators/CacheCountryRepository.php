@@ -1,11 +1,11 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Repositories\CacheDecorators;
+namespace Aestheticraza\LaravelGlobe\Repositories\CacheDecorators;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\Cache;
-use Yourname\LaravelGlobe\Models\Country;
-use Yourname\LaravelGlobe\Repositories\Contracts\CountryRepositoryInterface;
+use Aestheticraza\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Repositories\Contracts\CountryRepositoryInterface;
 
 class CacheCountryRepository implements CountryRepositoryInterface
 {

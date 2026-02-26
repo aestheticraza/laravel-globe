@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\LaravelGlobe;
+namespace Aestheticraza\LaravelGlobe;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,22 +18,22 @@ class LaravelGlobeServiceProvider extends ServiceProvider
         );
 
         $this->app->singleton('laravelglobe', function ($app) {
-            return new \Yourname\LaravelGlobe\Services\GlobeService();
+            return new \Aestheticraza\LaravelGlobe\Services\GlobeService();
         });
 
         // Repository Bindings
         $this->app->bind(
-            \Yourname\LaravelGlobe\Repositories\Contracts\CountryRepositoryInterface::class,
+            \Aestheticraza\LaravelGlobe\Repositories\Contracts\CountryRepositoryInterface::class,
             function () {
-                $repository = new \Yourname\LaravelGlobe\Repositories\Eloquent\CountryRepository();
-                return new \Yourname\LaravelGlobe\Repositories\CacheDecorators\CacheCountryRepository($repository);
+                $repository = new \Aestheticraza\LaravelGlobe\Repositories\Eloquent\CountryRepository();
+                return new \Aestheticraza\LaravelGlobe\Repositories\CacheDecorators\CacheCountryRepository($repository);
             }
         );
 
         // Register Events
         $this->app['events']->listen(
-            \Yourname\LaravelGlobe\Events\CountryUpdated::class,
-            [\Yourname\LaravelGlobe\Listeners\ClearCountryCache::class, 'handle']
+            \Aestheticraza\LaravelGlobe\Events\CountryUpdated::class,
+            [\Aestheticraza\LaravelGlobe\Listeners\ClearCountryCache::class, 'handle']
         );
     }
 
@@ -63,7 +63,7 @@ class LaravelGlobeServiceProvider extends ServiceProvider
         }
 
         // Register Observers for heavy data resolution handling natively
-        \Yourname\LaravelGlobe\Models\City::observe(\Yourname\LaravelGlobe\Observers\CityObserver::class);
+        \Aestheticraza\LaravelGlobe\Models\City::observe(\Aestheticraza\LaravelGlobe\Observers\CityObserver::class);
 
         // Publish Migrations and Seeders
         if ($this->app->runningInConsole()) {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Commands;
+namespace Aestheticraza\LaravelGlobe\Commands;
 
 use Illuminate\Console\Command;
-use Yourname\LaravelGlobe\Models\Country;
-use Yourname\LaravelGlobe\Models\State;
-use Yourname\LaravelGlobe\Models\City;
-use Yourname\LaravelGlobe\Models\Currency;
-use Yourname\LaravelGlobe\Models\Timezone;
+use Aestheticraza\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Models\State;
+use Aestheticraza\LaravelGlobe\Models\City;
+use Aestheticraza\LaravelGlobe\Models\Currency;
+use Aestheticraza\LaravelGlobe\Models\Timezone;
 use Illuminate\Support\Facades\Schema;
 
 class GlobeStatusCommand extends Command

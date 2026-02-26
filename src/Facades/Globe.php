@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Facades;
+namespace Aestheticraza\LaravelGlobe\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

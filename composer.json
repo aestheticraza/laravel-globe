@@ -1,5 +1,5 @@
 {
-    "name": "yourname/laravelglobe",
+    "name": "aestheticraza/laravelglobe",
     "description": "Comprehensive Countries, States, Cities, Currencies, and Timezones for Laravel.",
     "type": "library",
     "license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yourname\\LaravelGlobe\\": "src/"
+            "Aestheticraza\\LaravelGlobe\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -25,10 +25,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Yourname\\LaravelGlobe\\LaravelGlobeServiceProvider"
+                "Aestheticraza\\LaravelGlobe\\LaravelGlobeServiceProvider"
             ],
             "aliases": {
-                "Globe": "Yourname\\LaravelGlobe\\Facades\\Globe"
+                "Globe": "Aestheticraza\\LaravelGlobe\\Facades\\Globe"
             }
         }
     },

@@ -1,9 +1,9 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Commands;
+namespace Aestheticraza\LaravelGlobe\Commands;
 
 use Illuminate\Console\Command;
-use Yourname\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Models\Country;
 use Illuminate\Support\Facades\File;
 
 class GlobeExportCommand extends Command

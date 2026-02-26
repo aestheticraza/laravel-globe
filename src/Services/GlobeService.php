@@ -1,9 +1,9 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Services;
+namespace Aestheticraza\LaravelGlobe\Services;
 
-use Yourname\LaravelGlobe\Models\Country;
-use Yourname\LaravelGlobe\Models\City;
+use Aestheticraza\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Models\City;
 use Illuminate\Database\Eloquent\Collection;
 
 class GlobeService

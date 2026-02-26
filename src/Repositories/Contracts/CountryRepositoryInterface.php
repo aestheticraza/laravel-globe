@@ -1,9 +1,9 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Repositories\Contracts;
+namespace Aestheticraza\LaravelGlobe\Repositories\Contracts;
 
 use Illuminate\Database\Eloquent\Collection;
-use Yourname\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Models\Country;
 
 interface CountryRepositoryInterface
 {

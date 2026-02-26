@@ -1,10 +1,10 @@
 <?php
 
-namespace Yourname\LaravelGlobe\Seeders;
+namespace Aestheticraza\LaravelGlobe\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Yourname\LaravelGlobe\Models\Country;
+use Aestheticraza\LaravelGlobe\Models\Country;
 
 class LaravelGlobeSeeder extends Seeder
 {

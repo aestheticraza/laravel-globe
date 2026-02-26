@@ -167,7 +167,7 @@ To prevent massive `whereHas` bottlenecks during 150k+ row queries, we employ th
 End-user integration is seamless. They simply attach the trait to their application models:
 ```php
 class User extends Model {
-    use \Yourname\LaravelGlobe\Traits\HasLocation;
+    use \Aestheticraza\LaravelGlobe\Traits\HasLocation;
 }
 
 // Gives instant access to:
