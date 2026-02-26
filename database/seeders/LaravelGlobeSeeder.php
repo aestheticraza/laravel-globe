@@ -23,6 +23,7 @@ class LaravelGlobeSeeder extends Seeder
         // For cross-database compatibility (ignoring foreign keys during truncation)
         Schema::disableForeignKeyConstraints();
 
+        DB::table(config('laravelglobe.tables.postal_codes', 'postal_codes'))->truncate();
         DB::table('city_currency')->truncate();
         DB::table('state_timezone')->truncate();
         DB::table('city_timezone')->truncate();
@@ -45,6 +46,10 @@ class LaravelGlobeSeeder extends Seeder
 
         $this->seedCountryTimezonesPivot();
         $this->seedCountryCurrenciesPivot();
+        $this->seedStateTimezonesPivot();
+        $this->seedCityTimezonesPivot();
+        $this->seedCityCurrenciesPivot();
+        $this->seedPostalCodes();
 
         $this->command->info('✅ LaravelGlobe: Seeding completed successfully!');
     }
@@ -150,6 +155,54 @@ class LaravelGlobeSeeder extends Seeder
             $data = json_decode(file_get_contents($file), true);
             foreach (array_chunk($data, 1000) as $chunk) {
                 DB::table('country_currency')->insert($chunk);
+            }
+        }
+    }
+
+    private function seedStateTimezonesPivot(): void
+    {
+        $this->command->info('⏳ Seeding State Timezones Links...');
+        $file = __DIR__ . '/../../data/pivot_state_timezone.json';
+        if (file_exists($file)) {
+            $data = json_decode(file_get_contents($file), true);
+            foreach (array_chunk($data, 1000) as $chunk) {
+                DB::table('state_timezone')->insert($chunk);
+            }
+        }
+    }
+
+    private function seedCityTimezonesPivot(): void
+    {
+        $this->command->info('⌚ Seeding City Timezones Links...');
+        $file = __DIR__ . '/../../data/pivot_city_timezone.json';
+        if (file_exists($file)) {
+            $data = json_decode(file_get_contents($file), true);
+            foreach (array_chunk($data, 1000) as $chunk) {
+                DB::table('city_timezone')->insert($chunk);
+            }
+        }
+    }
+
+    private function seedCityCurrenciesPivot(): void
+    {
+        $this->command->info('🏦 Seeding City Currencies Links...');
+        $file = __DIR__ . '/../../data/pivot_city_currency.json';
+        if (file_exists($file)) {
+            $data = json_decode(file_get_contents($file), true);
+            foreach (array_chunk($data, 1000) as $chunk) {
+                DB::table('city_currency')->insert($chunk);
+            }
+        }
+    }
+
+    private function seedPostalCodes(): void
+    {
+        $this->command->info('📮 Seeding Postal Codes...');
+        $file = __DIR__ . '/../../data/postal_codes.json';
+        if (file_exists($file)) {
+            $data = json_decode(file_get_contents($file), true);
+            foreach (array_chunk($data, 1000) as $chunk) {
+                DB::table(config('laravelglobe.tables.postal_codes', 'postal_codes'))->insert($chunk);
             }
         }
     }
